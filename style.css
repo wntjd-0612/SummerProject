@@ -1,0 +1,154 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: #f6f6f6;
+}
+#nav
+{
+    position: absolute;
+    width: 100%;
+    height: 65px;
+    background-color: #3366ff;
+}
+#nav h2
+{
+    position: absolute;
+    left: 5px;
+    padding: 13px;
+    color: #fff;
+}
+
+#nav h2 a
+{
+    text-decoration: none;
+
+    color: #fff;
+}
+#nav img
+{
+    position: absolute;
+    right: 7px;
+    top: 9px;
+    width: 3%;
+}
+#login_form
+{
+    position: absolute;
+    background-color: #fff;
+    width: 60%;
+    height: 30%;
+    top:35%;
+    left: 20%;
+    border-radius: 10px;
+}
+
+#login_form #login
+{
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    width: 50%;
+
+}
+#login #text_input p
+{
+    font-size: 16px;
+
+}
+#login #text_input input
+{
+    border: none;
+    background-color: #f6f6f6;
+    border-radius: 4;
+    width: 100%;
+    height: 20px;
+}
+#login #link
+{
+    text-decoration: none;
+    color: #d9d9d9;
+    font-size: 5px;
+}
+#login_button
+{
+    background-color: #3366ff;
+    border: none;
+    color: #fff;
+    position: absolute;
+    bottom: 10%;
+    left: 25%;
+    width: 50%;
+    border-radius: 5px;
+    height: 25px;
+}
+
+#link_join
+{
+    background-color: #3366ff;
+    border: none;
+    color: #fff;
+    width: 40%;
+    border-radius: 5px;
+    height: 25px;
+    position: absolute;
+    bottom: 10%;
+    left: 30%;
+    
+}
+
+
+#join_form
+{
+    position: absolute;
+    background-color: #fff;
+    width: 60%;
+    height: 30%;
+    top:35%;
+    left: 20%;
+    border-radius: 10px;
+}
+
+#join_form #join
+{
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    width: 50%;
+
+}
+#join #text_input p
+{
+    font-size: 16px;
+
+}
+#join #text_input input
+{
+    border: none;
+    background-color: #f6f6f6;
+    border-radius: 4;
+    width: 100%;
+    height: 20px;
+}
+#join #link
+{
+    text-decoration: none;
+    color: #d9d9d9;
+    font-size: 5px;
+}
+#join_button
+{
+    background-color: #3366ff;
+    border: none;
+    color: #fff;
+    position: absolute;
+    bottom: 10%;
+    left: 25%;
+    width: 50%;
+    border-radius: 5px;
+    height: 10%;
+}
