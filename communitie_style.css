@@ -1,18 +1,29 @@
+body
+{
+    background-color: #fff;
+}
+
+
 #KBO_communitie
 {
     position: absolute;
     top: 30%;
-    left: ;
-
+    left: 35%;
+    width: 400px;
+    background-color: #f6f6f6;
+    border-radius: 20px;
+    height: 500px;
 }
-
-
 
 #KBO_communitie img
 {
-    position: absolute;
-    top: 30%;
-    left:40%;
-    width: 250px;
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 300px;
     border-radius: 20px;
+}
+#KBO_communitie p
+{
+    margin-left: 60px;
+    font-size: 20px;
 }
