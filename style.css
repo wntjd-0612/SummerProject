@@ -101,7 +101,7 @@ body
 }
 #login_button
 {
-    background-color: #3366ff;
+    background-color: #333;
     border: none;
     color: #fff;
     position: absolute;
@@ -114,7 +114,7 @@ body
 
 #link_join
 {
-    background-color: #3366ff;
+    background-color: #333;
     border: none;
     color: #fff;
     width: 40%;
@@ -167,7 +167,7 @@ body
 }
 #join_button
 {
-    background-color: #3366ff;
+    background-color: #333;
     border: none;
     color: #fff;
     position: absolute;
