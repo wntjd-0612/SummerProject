@@ -1,7 +1,21 @@
-socket.on('받을 이벤트 명',(msg) => {
-// 받을 데이터가 들어갑니다.
+const socket = io();
 
-})
+const inputBox = document.getElementById('input_box');
+const sendButton = document.getElementById('send_button');
+const messagesList = document.getElementById('messages');
 
-socket.emit('전송할 이벤트명',msg)
-//보낼 데이터는 msg변수에 담겨 있습니다.
+sendButton.addEventListener('click', () => {
+const message = inputBox.value;
+if (message) {
+    socket.emit('chat message', message);
+    inputBox.value = '';
+    }
+});
+
+socket.on('chat message', (msg) => {
+    const li = document.createElement('li');
+    li.textContent = msg;
+    messagesList.appendChild(li);
+    // 채팅 창 아래로 스크롤
+    messagesList.scrollTop = messagesList.scrollHeight;
+});
