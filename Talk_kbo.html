@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="talk_style.css">
+    <title>Chat-KBO</title>
 </head>
 <body>
     <div id="nav">
@@ -14,7 +15,14 @@
             <div><img src="profile.png" onclick="show_profile()"></div>
         </div>
     </div>
-
-    
+    <div id="chat">
+        <div id="chat_window">
+            <!-- 여기에 채팅 내용을 추가할 수 있습니다. -->
+        </div>
+        <div id="input_area">
+            <input type="text" id="input_box" placeholder="메시지를 입력하세요...">
+            <button id="send_button">보내기</button>
+        </div>
+    </div>
 </body>
 </html>

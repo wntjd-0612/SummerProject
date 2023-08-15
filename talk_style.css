@@ -1,0 +1,39 @@
+        
+#chat {
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+        
+#chat_window {
+    height: 300px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+        
+#input_area {
+    display: flex;
+    margin-top: 20px;
+}
+        
+#input_box {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+        
+#send_button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
