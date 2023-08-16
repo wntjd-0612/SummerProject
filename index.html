@@ -8,6 +8,33 @@
     <title>Document</title>
 </head>
 <body>
-    <a href="login.php">로그인 페이지 가기</a>
+    <div id="nav">
+        <div>
+            <h2>SPS</h2>
+            <div><img src="profile.png"></div>
+        </div>
+    </div>
+    <div id="login_form">
+         <form action="">
+            <div id="login">
+                <div id="text_input">
+                    <p>닉네임</p>
+                    <input type="text" name="id" id="id">
+                    <p>비밀번호</p>
+                    <input type="password" name="password" id="password">
+                </div>
+                <a href="" id="link">비밀번호를 잊으셨나요?</a>
+                
+            </div>
+            <!-- <input type="button" id="login_button" value="로그인"> -->
+        </form>
+        <button id="login_button" onclick="location.href='main.html'">로그인</button>
+        
+        
+    </div>
+    
+        <!-- <input type="button" id="link_join" value="회원가입" onclick=""> -->
+        <button id="link_join" onclick="location.href='join.html'">회원가입</button>
+
 </body>
 </html>
