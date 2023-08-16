@@ -1,7 +1,14 @@
-        
+#legue_img
+{
+    position: absolute;
+    top : 75px;
+    width: 140px;
+    background-color: #fff;
+}
+
 #chat {
     position: absolute;
-    top: 80px;
+    top: 215px;
     width: 100%;
     padding: 20px;
     border: 1px solid #ccc;
